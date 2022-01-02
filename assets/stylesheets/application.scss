@@ -1,7 +1,47 @@
 body {
   font-family: Helvetica;
+  color: black;
 }
 .app {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  display: flex;
+}
+
+.channel-list {
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+
+  .logo-bar {
+    background-color: rgb(153, 153, 153);
+    opacity: 0.3;
+    height: 100%;
+    width: 15%;
+
+    .logo {
+      // TODO
+    }
+  }
+
+  .channels {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+    width: 85%;
+    overflow: scroll;
+
+    h3, p {
+      font-weight: bold;
+      color: black;
+      margin-left: 20px;
+    }
+  }
+}
+
+.message-list {
+  width: 70vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.message {
+  // TODO
 }
